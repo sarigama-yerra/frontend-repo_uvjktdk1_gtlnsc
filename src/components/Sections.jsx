@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Trophy, User, Play, Instagram, Twitter, Facebook } from 'lucide-react';
+import { Trophy, Play, Instagram, Twitter, Facebook } from 'lucide-react';
 
 const reveal = {
   initial: { opacity: 0, y: 20 },
@@ -22,6 +22,7 @@ export function AboutSection() {
               {p}
             </motion.p>
           ))}
+        </div>
       </div>
     </section>
   );
